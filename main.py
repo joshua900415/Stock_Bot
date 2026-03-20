@@ -8,7 +8,7 @@ import pytz
 LINE_ACCESS_TOKEN = os.environ.get('LINE_ACCESS_TOKEN')
 LINE_USER_ID = os.environ.get('LINE_USER_ID')
 
-WATCH_LIST = ["0050.TW", "00929.TW", "2646.TW"]
+WATCH_LIST = ["0050 成本79.31", "00929 成本18.32", "星宇航空 成本25.81"]
 
 def send_line_push(message):
     url = "https://api.line.me/v2/bot/message/push"
