@@ -11,8 +11,8 @@ LINE_USER_ID = os.environ.get('LINE_USER_ID')
 # 設定監控標的：有成本的寫數字，沒成本的寫 None
 WATCH_CONFIG = {
     "0050.TW": 78.31,
-    "00929.TW": 18.35,
-    "2646.TW": 25.00,
+    "00929.TW": 18.32,
+    "2646.TW": 25.81,
     "BTC-USD": None  # 比特幣不設成本，僅看現價
 }
 
